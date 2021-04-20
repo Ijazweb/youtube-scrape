@@ -1,0 +1,11 @@
+---
+application:
+  name: "youtube-scrape"
+  project: "Ytapi"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-youtube-scrape"
+  routes:
+  - application_name: "youtube-scrape"
+    paths:
+    - "/*"
